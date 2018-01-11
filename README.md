@@ -13,3 +13,11 @@ jonrnalctl _PID=1234
 less /proc/meminfo
 free -h
 ```
+```
+
+killall //kill all process based on name
+```
+```
+apt install cgroup-bin cgroup-lite cgroup-tools cgroupfs-mount libcgroup1
+yum install libcgroup libcgroup-tools
+```
